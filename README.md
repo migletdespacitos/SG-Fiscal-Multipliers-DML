@@ -1,10 +1,10 @@
- sg-fiscal-multipliers-dml
+# sg-fiscal-multipliers-dml
  
 **Causal estimates of Singapore's sectoral fiscal multipliers, using Double Machine Learning.**
  
 This project asks a simple question with a genuinely hard causal inference problem underneath it: *does an unexpected quarter of government spending actually move GDP growth?* Naively regressing GDP on spending conflates the causal effect with reverse causality (a slowdown triggers more spending) and common-cause confounding (both spending and growth respond to the same macro conditions). This pipeline uses **Double Machine Learning (DML)** — Chernozhukov et al. (2018) — to strip that bias out and isolate the effect of a genuine, unanticipated fiscal shock.
  
-Full write-up with the intuition, methodology and results: *[link to your Medium article here]*
+Full write-up with the intuition, methodology and results: https://medium.com/@miko232411/building-a-causal-ml-pipeline-to-test-singapores-national-budget-1640ca3889b3
  
 ---
  
